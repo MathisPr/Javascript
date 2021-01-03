@@ -6,4 +6,24 @@ const filter        = document.querySelector('#filter');
 const taskInput     = document.querySelector('#task');         
 
 
+//load all event listneners
+loadEventListeners();
+
+//load all event listeners function
+function loadEventListeners () {
+    //Add task Event
+    form.addEventListener('submit', addTask)
+
+}
+
+//addTask function
+function addTask (e) {
+    if (taskInput.value === '') {
+        alert('Please add a task');
+    }
+
+
+    e.preventDefaultEvent();
+}
+
 
