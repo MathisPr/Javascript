@@ -13,16 +13,20 @@ loadEventListeners();
 function loadEventListeners () {
     //Add task Event
     form.addEventListener('submit', addTask);
-
 }
 
 //addTask function
 function addTask (e) {
-    if (taskInput.value === '') {
+    if (taskInput.value === 'Test') {
         alert('Please add a task');
     }
 
     e.preventDefault();
 }
 
+/*
+https://www.udemy.com/course/modern-javascript-from-the-beginning/learn/lecture/8762202#questions/13346716
+Time: 11:00
+
+Status: function addTask not working - cause unknown
 
