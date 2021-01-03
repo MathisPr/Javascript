@@ -12,7 +12,7 @@ loadEventListeners();
 //load all event listeners function
 function loadEventListeners () {
     //Add task Event
-    form.addEventListener('submit', addTask)
+    form.addEventListener('submit', addTask);
 
 }
 
@@ -22,8 +22,7 @@ function addTask (e) {
         alert('Please add a task');
     }
 
-
-    e.preventDefaultEvent();
+    e.preventDefault();
 }
 
 
