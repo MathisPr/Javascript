@@ -5,8 +5,7 @@ document.getElementById('loan-form').addEventListener('submit', calculateResults
 
 //calcualte Results
 function calculateResults(e) {
-    console.log("Test");
-
+    
     //UI Vars
     const UIamount          = document.getElementById('amount');
     const UIinterest        = document.getElementById('interest')
