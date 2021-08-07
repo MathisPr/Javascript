@@ -1,3 +1,6 @@
+//Projekt based on Udemy Course "Modern JavaScript From The Beginning" Created by Brad Traversy 12/2019
+//https://www.udemy.com/course/modern-javascript-from-the-beginning/learn/lecture/8762202#overview
+
 //define UI Vars
 const form      = document.querySelector('#task-form');
 const taskList  = document.querySelector('.collection');
