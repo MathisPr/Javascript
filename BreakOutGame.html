@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Breakout Game Exercise</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="BreakOutGame.css">
+
+    <!-- Script -->
+    <!-- needs async - otherwise the script is loaded before the DOM and an error occurs -->
+    <script src="BreakOutGame.js" async></script>
+
+</head>
+<body>
+    <div>
+        <!-- start button -->
+        <div class="startBtn">Start Game</div>
+        
+        <!-- UI -->
+
+        <!-- UI Score -->
+        Score: <span class="score">0</span>
+
+        <!-- Lives -->
+        Lives: <span class="lives">0</span>
+
+        <!-- Bounces -->
+        Bounces: <span class="bounces">0</span>
+    </div>
+
+    <!-- game -->
+    <div class="container">
+        <!-- game ball -->
+        <div id="ball"></div>
+        <!-- game paddle -->
+        <div class="paddle"></div>
+        <!-- game over message -->
+        <div class="gameover">Click Start Button</div>
+    </div>
+
+</body>
+</html>

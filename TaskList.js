@@ -39,7 +39,7 @@ function getTasks() {
         tasks = JSON.parse(localStorage.getItem('tasks'));
     }
 
-    //loop through the existing tasks
+    //loop through the existing tasks and create a list item
     tasks.forEach(function(task) {
         //create Elemet for each Task in local Storage
 
