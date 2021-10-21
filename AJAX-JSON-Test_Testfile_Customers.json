@@ -1,0 +1,25 @@
+
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "company": "123 Desins",
+        "phone": "555-666"
+
+    },
+    {
+        "id": 2,
+        "name": "Maria Stuart",
+        "company": "Scotlandia",
+        "phone": "333-888"
+    
+    },
+    {
+        "id": 3,
+        "name": "Peter Quill",
+        "company": "Guardians",
+        "phone": "999-999"
+    
+    }
+
+]
